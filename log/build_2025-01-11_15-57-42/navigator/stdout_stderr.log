@@ -1,0 +1,35 @@
+[ 50%] Built target navigator_node
+[ 75%] [32mBuilding CXX object CMakeFiles/navigator.dir/src/navigator.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnavigator.so[0m
+[100%] Built target navigator
+-- Install configuration: ""
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/lib/navigator/navigator_node
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/include
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/include/navigator
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/library_path.sh
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/library_path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/lib/libnavigator.so
+-- Set non-toolchain portion of runtime path of "/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/lib/libnavigator.so" to ""
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/launch
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/launch/launch.py
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/ament_index/resource_index/package_run_dependencies/navigator
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/ament_index/resource_index/parent_prefix_path/navigator
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/path.sh
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/environment/path.dsv
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/local_setup.bash
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/local_setup.sh
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/local_setup.zsh
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/local_setup.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/package.dsv
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/ament_index/resource_index/packages/navigator
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/ament_index/resource_index/rclcpp_components/navigator
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/cmake/navigatorConfig.cmake
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/cmake/navigatorConfig-version.cmake
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/package.xml
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/launch
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator/share/navigator/launch/launch.py

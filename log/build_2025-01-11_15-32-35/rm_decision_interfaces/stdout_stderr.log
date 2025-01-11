@@ -1,0 +1,202 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_rm_decision_interfaces
+running egg_info
+creating rm_decision_interfaces.egg-info
+writing rm_decision_interfaces.egg-info/PKG-INFO
+writing dependency_links to rm_decision_interfaces.egg-info/dependency_links.txt
+writing top-level names to rm_decision_interfaces.egg-info/top_level.txt
+writing manifest file 'rm_decision_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'rm_decision_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'rm_decision_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_rm_decision_interfaces_egg
+[  1%] Built target rm_decision_interfaces__rosidl_generator_type_description
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target rm_decision_interfaces__cpp
+[  4%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/all_robot_hp__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/all_robot_hp__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/all_robot_hp__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/armor__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/armor__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/armor__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/friend_location__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/friend_location__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/rfid__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/friend_location__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/robot_status__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_serial__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/rfid__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_serial__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/rfid__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/robot_status__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/from_serial__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/from_serial__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_serial__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/from_serial__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/receive_serial__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/receive_serial__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/receive_serial__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_auto_aim__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_auto_aim__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/navigate__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/to_auto_aim__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/navigate__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_decision_interfaces/msg/detail/navigate__description.c.o[0m
+[ 27%] [32m[1mLinking C shared library librm_decision_interfaces__rosidl_generator_c.so[0m
+[ 27%] Built target rm_decision_interfaces__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/armor__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/all_robot_hp__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/friend_location__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/robot_status__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/navigate__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/receive_serial__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/rfid__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/to_auto_aim__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/to_serial__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_decision_interfaces/msg/from_serial__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/all_robot_hp__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/friend_location__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/armor__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/rfid__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/robot_status__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/to_serial__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/from_serial__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/to_auto_aim__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/receive_serial__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_decision_interfaces/msg/navigate__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library librm_decision_interfaces__rosidl_typesupport_c.so[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/to_serial__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/all_robot_hp__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/friend_location__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/rfid__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/robot_status__type_support.cpp.o[0m
+[ 53%] Built target rm_decision_interfaces__rosidl_typesupport_c
+[ 53%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/from_serial__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/all_robot_hp__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/armor__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/receive_serial__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/to_auto_aim__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/friend_location__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_decision_interfaces/msg/detail/navigate__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/rfid__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/to_serial__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/all_robot_hp__type_support.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/receive_serial__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/from_serial__type_support.c.o[0m
+[ 65%] [32m[1mLinking CXX shared library librm_decision_interfaces__rosidl_typesupport_cpp.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/to_auto_aim__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_decision_interfaces/msg/detail/navigate__type_support.c.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/friend_location__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/rfid__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/to_serial__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/friend_location__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/all_robot_hp__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/from_serial__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking C shared library librm_decision_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/receive_serial__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/rfid__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/robot_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/to_serial__type_support_c.cpp.o[0m
+[ 78%] Built target rm_decision_interfaces__rosidl_typesupport_cpp
+[ 79%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/to_auto_aim__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_decision_interfaces/msg/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[ 80%] Built target rm_decision_interfaces__rosidl_typesupport_introspection_c
+[ 80%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/from_serial__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/receive_serial__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/to_auto_aim__type_support_c.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library librm_decision_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 83%] Built target rm_decision_interfaces__rosidl_typesupport_introspection_cpp
+[ 84%] [32mBuilding CXX object CMakeFiles/rm_decision_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_decision_interfaces/msg/detail/navigate__type_support_c.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library librm_decision_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 85%] [32m[1mLinking CXX shared library librm_decision_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 85%] Built target rm_decision_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target rm_decision_interfaces__rosidl_typesupport_fastrtps_c
+[ 85%] Built target rm_decision_interfaces
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target rm_decision_interfaces__py
+[ 87%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_robot_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_armor_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_all_robot_hp_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_rfid_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_receive_serial_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_friend_location_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_from_serial_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_to_serial_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_navigate_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/rm_decision_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_decision_interfaces/msg/_to_auto_aim_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library librm_decision_interfaces__rosidl_generator_py.so[0m
+[ 95%] Built target rm_decision_interfaces__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/rm_decision_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/rm_decision_interfaces/_rm_decision_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/rm_decision_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rm_decision_interfaces/_rm_decision_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/rm_decision_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rm_decision_interfaces/_rm_decision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/rm_decision_interfaces/rm_decision_interfaces_s__rosidl_typesupport_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/rm_decision_interfaces/rm_decision_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rm_decision_interfaces/rm_decision_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target rm_decision_interfaces_s__rosidl_typesupport_c
+[100%] Built target rm_decision_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target rm_decision_interfaces_s__rosidl_typesupport_fastrtps_c

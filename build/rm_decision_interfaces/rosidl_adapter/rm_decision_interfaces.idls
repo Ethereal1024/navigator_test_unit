@@ -1,0 +1,10 @@
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/AllRobotHP.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/Armor.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/FriendLocation.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/RFID.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/RobotStatus.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/ToSerial.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/FromSerial.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/ReceiveSerial.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/ToAutoAim.idl
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces/rosidl_adapter/rm_decision_interfaces:msg/Navigate.idl

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rm_decision_interfaces/msg/RFID",
+      "fields": [
+        {
+          "name": "rfid_patrol_status",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rm_decision_interfaces/msg/RFID",
+      "hash_string": "RIHS01_234b8f856991454e912b50b8910791ac11f654fbe7425f1889975e9655b80670"
+    }
+  ]
+}

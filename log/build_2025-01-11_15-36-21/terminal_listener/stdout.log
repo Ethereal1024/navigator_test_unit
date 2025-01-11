@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rm_decision_interfaces: 0.0.0 (/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener
+[ 50%] [32mBuilding CXX object CMakeFiles/terminal_listener.dir/src/terminal_listener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable terminal_listener[0m
+[100%] Built target terminal_listener
+-- Install configuration: ""
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/terminal_listener/terminal_listener
+-- Set non-toolchain portion of runtime path of "/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/terminal_listener/terminal_listener" to ""
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/package_run_dependencies/terminal_listener
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/parent_prefix_path/terminal_listener
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/ament_prefix_path.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/ament_prefix_path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/path.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.bash
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.zsh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/packages/terminal_listener
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/cmake/terminal_listenerConfig.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/cmake/terminal_listenerConfig-version.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.xml

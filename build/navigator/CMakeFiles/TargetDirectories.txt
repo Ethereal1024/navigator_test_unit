@@ -1,0 +1,11 @@
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/uninstall.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/navigator_uninstall.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/navigator.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/navigator_node.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/test.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/edit_cache.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/rebuild_cache.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/list_install_components.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/install.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/install/local.dir
+/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator/CMakeFiles/install/strip.dir

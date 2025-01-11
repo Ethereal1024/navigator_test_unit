@@ -1,0 +1,15 @@
+{
+  "package_name": "rm_decision_interfaces",
+  "non_idl_tuples": [
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/AllRobotHP.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/Armor.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/FriendLocation.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/RFID.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/RobotStatus.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/ToSerial.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/FromSerial.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/ReceiveSerial.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/ToAutoAim.msg",
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces:msg/Navigate.msg"
+  ]
+}
