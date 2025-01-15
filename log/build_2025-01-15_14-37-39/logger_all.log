@@ -1,0 +1,355 @@
+[0.184s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.184s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f694eb87680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f694eb87380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f694eb87380>>)[0m
+[0.208s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.209s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ethereal/qianli/rm_decision/navigator_test_unit'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'ignore'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'ignore_ament_install'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['colcon_pkg']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'colcon_pkg'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['colcon_meta']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'colcon_meta'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['ros']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'ros'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['cmake', 'python']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'cmake'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'python'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extensions ['python_setup_py']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level) by extension 'python_setup_py'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extension 'ignore'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extension 'ignore_ament_install'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extensions ['colcon_pkg']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extension 'colcon_pkg'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extensions ['colcon_meta']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extension 'colcon_meta'
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extensions ['ros']
+[0.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator) by extension 'ros'
+[0.229s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Action Level/navigator' with type 'ros.ament_cmake' and name 'rm_decision'[0m
+[0.229s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extension 'ignore'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extension 'ignore_ament_install'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extensions ['colcon_pkg']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extension 'colcon_pkg'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extensions ['colcon_meta']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extension 'colcon_meta'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extensions ['ros']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Action Level/navigator_interfaces) by extension 'ros'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Action Level/navigator_interfaces' with type 'ros.ament_cmake' and name 'navigator_interfaces'[0m
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extension 'ignore'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extension 'ignore_ament_install'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extensions ['colcon_pkg']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extension 'colcon_pkg'
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extensions ['colcon_meta']
+[0.230s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extension 'colcon_meta'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extensions ['ros']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_decision_interfaces) by extension 'ros'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/rm_decision_interfaces' with type 'ros.ament_cmake' and name 'rm_decision_interfaces'[0m
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extension 'ignore'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extension 'ignore_ament_install'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extensions ['colcon_pkg']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extension 'colcon_pkg'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extensions ['colcon_meta']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extension 'colcon_meta'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extensions ['ros']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/terminal_listener) by extension 'ros'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/terminal_listener' with type 'ros.ament_cmake' and name 'terminal_listener'[0m
+[0.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.232s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.242s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.242s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.244s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 328 installed packages in /opt/ros/jazzy[0m
+[0.244s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'navigator_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'navigator_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces', 'merge_install': False, 'path': '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rm_decision_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces', 'merge_install': False, 'path': '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_target' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'terminal_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'terminal_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener', 'merge_install': False, 'path': '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/terminal_listener', 'symlink_install': False, 'test_result_base': None}[0m
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_target' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_decision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rm_decision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision', 'merge_install': False, 'path': '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator', 'symlink_install': False, 'test_result_base': None}[0m
+[0.273s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.274s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.274s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator_interfaces' with build type 'ament_cmake'
+[0.274s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator_interfaces'
+[0.276s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.278s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces' with build type 'ament_cmake'
+[0.278s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/rm_decision_interfaces'
+[0.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.280s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/terminal_listener' with build type 'ament_cmake'
+[0.280s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/terminal_listener'
+[0.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.285s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces -- -j20 -l20[0m
+[0.288s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces -- -j20 -l20[0m
+[0.293s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener -- -j20 -l20[0m
+[0.344s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener -- -j20 -l20[0m
+[0.376s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener[0m
+[0.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(terminal_listener)
+[0.389s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener[0m
+[0.390s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener' for CMake module files
+[0.392s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener' for CMake config files
+[0.392s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('terminal_listener', 'cmake_prefix_path')
+[0.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.ps1'
+[0.393s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.dsv'
+[0.394s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.sh'
+[0.394s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib'
+[0.394s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/bin'
+[0.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/pkgconfig/terminal_listener.pc'
+[0.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/python3.12/site-packages'
+[0.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/bin'
+[0.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.ps1'
+[0.395s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.dsv'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.sh'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.bash'
+[0.396s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.zsh'
+[0.397s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/colcon-core/packages/terminal_listener)
+[0.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(terminal_listener)
+[0.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener' for CMake module files
+[0.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener' for CMake config files
+[0.415s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('terminal_listener', 'cmake_prefix_path')
+[0.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.ps1'
+[0.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.dsv'
+[0.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/hook/cmake_prefix_path.sh'
+[0.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib'
+[0.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/bin'
+[0.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/pkgconfig/terminal_listener.pc'
+[0.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/python3.12/site-packages'
+[0.417s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/bin'
+[0.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.ps1'
+[0.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.dsv'
+[0.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.sh'
+[0.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.bash'
+[0.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.zsh'
+[0.418s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/colcon-core/packages/terminal_listener)
+[0.594s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces -- -j20 -l20[0m
+[0.597s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces -- -j20 -l20[0m
+[0.638s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces[0m
+[0.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(navigator_interfaces)
+[0.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces' for CMake module files
+[0.691s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces[0m
+[0.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces' for CMake config files
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'cmake_prefix_path')
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.ps1'
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.dsv'
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.sh'
+[0.693s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib'
+[0.693s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'ld_library_path_lib')
+[0.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.ps1'
+[0.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.dsv'
+[0.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.sh'
+[0.693s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/bin'
+[0.693s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/pkgconfig/navigator_interfaces.pc'
+[0.694s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages'
+[0.694s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'pythonpath')
+[0.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.ps1'
+[0.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.dsv'
+[0.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.sh'
+[0.694s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/bin'
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.ps1'
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.dsv'
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.sh'
+[0.696s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.bash'
+[0.696s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.zsh'
+[0.696s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/colcon-core/packages/navigator_interfaces)
+[0.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(navigator_interfaces)
+[0.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces' for CMake module files
+[0.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces' for CMake config files
+[0.738s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'cmake_prefix_path')
+[0.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.ps1'
+[0.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.dsv'
+[0.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/cmake_prefix_path.sh'
+[0.739s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib'
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'ld_library_path_lib')
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.ps1'
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.dsv'
+[0.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/ld_library_path_lib.sh'
+[0.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/bin'
+[0.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/pkgconfig/navigator_interfaces.pc'
+[0.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages'
+[0.740s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('navigator_interfaces', 'pythonpath')
+[0.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.ps1'
+[0.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.dsv'
+[0.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/hook/pythonpath.sh'
+[0.742s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/bin'
+[0.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.ps1'
+[0.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.dsv'
+[0.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.sh'
+[0.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.bash'
+[0.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/navigator_interfaces/package.zsh'
+[0.744s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/share/colcon-core/packages/navigator_interfaces)
+[0.745s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator' with build type 'ament_cmake'
+[0.745s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator'
+[0.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.746s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.762s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces[0m
+[0.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_decision_interfaces)
+[0.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces' for CMake module files
+[0.824s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision_interfaces[0m
+[0.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces' for CMake config files
+[0.825s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'cmake_prefix_path')
+[0.825s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.ps1'
+[0.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.dsv'
+[0.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.sh'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib'
+[0.827s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'ld_library_path_lib')
+[0.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.ps1'
+[0.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.dsv'
+[0.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.sh'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/bin'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib/pkgconfig/rm_decision_interfaces.pc'
+[0.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib/python3.12/site-packages'
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'pythonpath')
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.ps1'
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.dsv'
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.sh'
+[0.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/bin'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.ps1'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.dsv'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.sh'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.bash'
+[0.830s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.zsh'
+[0.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/colcon-core/packages/rm_decision_interfaces)
+[1.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_decision_interfaces)
+[1.002s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces' for CMake module files
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces' for CMake config files
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'cmake_prefix_path')
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.ps1'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.dsv'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/cmake_prefix_path.sh'
+[1.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'ld_library_path_lib')
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.ps1'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.dsv'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/ld_library_path_lib.sh'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/bin'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib/pkgconfig/rm_decision_interfaces.pc'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/lib/python3.12/site-packages'
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_decision_interfaces', 'pythonpath')
+[1.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.ps1'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.dsv'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/hook/pythonpath.sh'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/bin'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.ps1'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.dsv'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.sh'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.bash'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/rm_decision_interfaces/package.zsh'
+[1.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision_interfaces/share/colcon-core/packages/rm_decision_interfaces)
+[1.011s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision -- -j20 -l20[0m
+[2.697s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision' returned '2': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision -- -j20 -l20[0m
+[2.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_decision)
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision' for CMake module files
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision' for CMake config files
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/bin'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/pkgconfig/rm_decision.pc'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/python3.12/site-packages'
+[2.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/bin'
+[2.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.ps1'
+[2.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.dsv'
+[2.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.sh'
+[2.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.bash'
+[2.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.zsh'
+[2.718s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/colcon-core/packages/rm_decision)
+[2.729s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.729s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.729s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[2.729s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.850s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.850s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.850s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.850s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.850s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NoServer: Failed to connect to socket /run/user/1002/bus: Connection refused[0m
+[2.851s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/local_setup.ps1'
+[2.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/_local_setup_util_ps1.py'
+[2.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/setup.ps1'
+[2.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/local_setup.sh'
+[2.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/_local_setup_util_sh.py'
+[2.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/setup.sh'
+[2.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/local_setup.bash'
+[2.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/setup.bash'
+[2.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/local_setup.zsh'
+[2.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ethereal/qianli/rm_decision/navigator_test_unit/install/setup.zsh'

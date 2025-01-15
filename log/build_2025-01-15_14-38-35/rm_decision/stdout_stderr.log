@@ -1,0 +1,62 @@
+-- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision
+[ 25%] [32mBuilding CXX object CMakeFiles/rm_decision.dir/src/navigator.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librm_decision.so[0m
+[ 50%] Built target rm_decision
+[ 75%] [32mBuilding CXX object CMakeFiles/rm_decision_node.dir/src/node_exec.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rm_decision_node[0m
+[100%] Built target rm_decision_node
+-- Install configuration: ""
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/include
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/include/navigator
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/include/navigator/navigator.hpp
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/library_path.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/library_path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/librm_decision.so
+-- Set non-toolchain portion of runtime path of "/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/librm_decision.so" to ""
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/rm_decision/rm_decision_node
+-- Set non-toolchain portion of runtime path of "/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/lib/rm_decision/rm_decision_node" to ""
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/launch
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/launch/launch.py
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/ament_index/resource_index/package_run_dependencies/rm_decision
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/ament_index/resource_index/parent_prefix_path/rm_decision
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/ament_prefix_path.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/ament_prefix_path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/path.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/environment/path.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/local_setup.bash
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/local_setup.sh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/local_setup.zsh
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/local_setup.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.dsv
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/ament_index/resource_index/packages/rm_decision
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/cmake/rm_decisionConfig.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/cmake/rm_decisionConfig-version.cmake
+-- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/package.xml
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/launch
+-- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision/share/rm_decision/launch/launch.py

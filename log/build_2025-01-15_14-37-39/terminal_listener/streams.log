@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener -- -j20 -l20
+[0.056s] [100%] Built target terminal_listener
+[0.064s] Invoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener -- -j20 -l20
+[0.097s] Invoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener
+[0.103s] -- Install configuration: ""
+[0.103s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/lib/terminal_listener/terminal_listener
+[0.103s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/package_run_dependencies/terminal_listener
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/parent_prefix_path/terminal_listener
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/ament_prefix_path.sh
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/ament_prefix_path.dsv
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/path.sh
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/environment/path.dsv
+[0.104s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.bash
+[0.105s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.sh
+[0.106s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.zsh
+[0.107s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/local_setup.dsv
+[0.107s] -- Installing: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.dsv
+[0.107s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/ament_index/resource_index/packages/terminal_listener
+[0.107s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/cmake/terminal_listenerConfig.cmake
+[0.108s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/cmake/terminal_listenerConfig-version.cmake
+[0.108s] -- Up-to-date: /home/ethereal/qianli/rm_decision/navigator_test_unit/install/terminal_listener/share/terminal_listener/package.xml
+[0.109s] Invoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ethereal/qianli/rm_decision/navigator_test_unit/build/terminal_listener

@@ -1,0 +1,11 @@
+{
+  "package_name": "navigator_interfaces",
+  "output_dir": "/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces/rosidl_generator_type_description/navigator_interfaces",
+  "idl_tuples": [
+    "/home/ethereal/qianli/rm_decision/navigator_test_unit/build/navigator_interfaces/rosidl_adapter/navigator_interfaces:msg/Navigate.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

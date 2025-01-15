@@ -1,0 +1,11 @@
+[01m[K/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/src/navigator.cpp:[m[K In member function ‘[01m[Kvoid Navigator::[01;32m[Kget_current_pose[m[K()[m[K’:
+[01m[K/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/src/navigator.cpp:121:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRMDecision[m[K’ has not been declared
+  121 |     [01;31m[KRMDecision[m[K::PoseStamped currentPose;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/src/navigator.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcurrentPose[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_current_pose[m[K’?
+  122 |     [01;31m[KcurrentPose[m[K.header.stamp = this->now();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kget_current_pose[m[K
+gmake[2]: *** [CMakeFiles/rm_decision.dir/build.make:76: CMakeFiles/rm_decision.dir/src/navigator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_decision.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

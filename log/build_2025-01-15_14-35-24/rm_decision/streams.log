@@ -1,0 +1,53 @@
+[0.289s] Invoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator -DCMAKE_INSTALL_PREFIX=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision
+[0.447s] -- The C compiler identification is GNU 13.3.0
+[1.591s] -- The CXX compiler identification is GNU 13.3.0
+[2.818s] -- Detecting C compiler ABI info
+[3.202s] -- Detecting C compiler ABI info - done
+[3.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.209s] -- Detecting C compile features
+[3.209s] -- Detecting C compile features - done
+[3.319s] -- Detecting CXX compiler ABI info
+[3.698s] -- Detecting CXX compiler ABI info - done
+[3.704s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.705s] -- Detecting CXX compile features
+[3.705s] -- Detecting CXX compile features - done
+[3.708s] -- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[3.814s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.263s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.274s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.385s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.388s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.459s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.884s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.720s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.721s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.721s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.339s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.368s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.368s] -- Configured cppcheck include dirs: /home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/include
+[7.368s] -- Configured cppcheck exclude dirs and/or files: 
+[7.370s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.370s] -- Configured cpplint exclude dirs and/or files: 
+[7.371s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.371s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.372s] -- Added test 'lint_cmake' to check CMake code style
+[7.373s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.375s] -- Added test 'xmllint' to check XML markup files
+[7.378s] -- Configuring done (7.1s)
+[7.401s] -- Generating done (0.0s)
+[7.403s] -- Build files have been written to: /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision
+[7.411s] Invoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision' returned '0': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator -DCMAKE_INSTALL_PREFIX=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/rm_decision
+[7.412s] Invoking command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision -- -j20 -l20
+[7.446s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_decision.dir/src/navigator.cpp.o[0m
+[7.725s] In file included from [01m[K/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/src/navigator.cpp:1[m[K:
+[7.725s] [01m[K/home/ethereal/qianli/rm_decision/navigator_test_unit/src/Action Level/navigator/include/navigator/navigator.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kinformation_widgets/rm_decision_defs.hpp: No such file or directory
+[7.725s]     6 | #include [01;31m[K"information_widgets/rm_decision_defs.hpp"[m[K
+[7.725s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.725s] compilation terminated.
+[7.727s] gmake[2]: *** [CMakeFiles/rm_decision.dir/build.make:76: CMakeFiles/rm_decision.dir/src/navigator.cpp.o] Error 1
+[7.727s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_decision.dir/all] Error 2
+[7.727s] gmake: *** [Makefile:146: all] Error 2
+[7.729s] Invoked command in '/home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision' returned '2': AMENT_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethereal/qianli/rm_decision/navigator_test_unit/install/navigator_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ethereal/qianli/rm_decision/navigator_test_unit/build/rm_decision -- -j20 -l20
